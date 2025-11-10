@@ -1,6 +1,6 @@
 var friendName=prompt ('Enter Your Name');
 
-if (friendName=='Yasin'){
+if (friendName=='Muzammil'){
     var schoolName =prompt('Enter your School Name');
 
     if (schoolName=='SMIT'){
@@ -63,7 +63,7 @@ else {
 
 var inputName=prompt('Enter Your Name');
 
-if (inputName=='Yasin'){
+if (inputName=='Muzammil'){
     console.log('Welcome Sir!');
 
 }
@@ -140,7 +140,7 @@ else {
 
 // Question no 10
 
-var correctPassword = 'Yasin1234'
+var correctPassword = 'Muzammil'
 var inputuser = prompt('Enter your password');
 if (!inputuser) {
     alert('Please enter your password');
@@ -151,8 +151,6 @@ else if (inputuser == correctPassword || inputuser !== correctPassword) {
     var inputuser2 = prompt('Please Retype your password');
 
 }
-
-
 
 if (inputuser === correctPassword && inputuser2 == correctPassword) {
     console.log("Password is Correct!");
@@ -329,3 +327,4 @@ else {
     console.log("Old Enough");
 
 }
+
